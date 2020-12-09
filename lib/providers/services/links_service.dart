@@ -62,7 +62,7 @@ class LinksService {
         'https://joinseeds.com/?placeholder=&inviteMnemonic=$inviteMnemonic',
       ),
       androidParameters: AndroidParameters(
-        packageName: "com.joinseeds.seedswallet",
+        packageName: "com.joinseeds.parqwallet",
       ),
       iosParameters: IosParameters(
         bundleId: "com.joinseeds.seedslight",
