@@ -62,10 +62,10 @@ class LinksService {
         'https://joinseeds.com/?placeholder=&inviteMnemonic=$inviteMnemonic',
       ),
       androidParameters: AndroidParameters(
-        packageName: "com.joinseeds.parqwallet",
+        packageName: "com.joinseeds.parqspace",
       ),
       iosParameters: IosParameters(
-        bundleId: "com.joinseeds.seedslight",
+        bundleId: "com.joinseeds.parqspace",
         appStoreId: "1507143650",
       ),
     );
@@ -75,7 +75,8 @@ class LinksService {
     return dynamicUrl;
   }
 
-  Future<PendingDynamicLinkData> unpackDynamicLink(String link) => FirebaseDynamicLinks.instance
-      .getDynamicLink(Uri.parse(link))
-      .then((PendingDynamicLinkData dynamicLink) => dynamicLink);
+  Future<PendingDynamicLinkData> unpackDynamicLink(String link) =>
+      FirebaseDynamicLinks.instance
+          .getDynamicLink(Uri.parse(link))
+          .then((PendingDynamicLinkData dynamicLink) => dynamicLink);
 }

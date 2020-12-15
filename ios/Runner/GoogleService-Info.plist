@@ -15,7 +15,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.joinseeds.seedslight</string>
+	<string>com.joinseeds.parqspace</string>
 	<key>PROJECT_ID</key>
 	<string>seeds-77371</string>
 	<key>STORAGE_BUCKET</key>

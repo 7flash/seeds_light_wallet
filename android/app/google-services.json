@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:366914936426:android:7d2393ccb8b3bdda1a3413",
         "android_client_info": {
-          "package_name": "com.joinseeds.parqwallet"
+          "package_name": "com.joinseeds.parqspace"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "366914936426-kn6vumn468dl6vc1rdp9ircp6v9ehufg.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.joinseeds.parqwallet",
+            "package_name": "com.joinseeds.parqspace",
             "certificate_hash": "ada86e0a7e0067084ed872e08681b2104aaf5270"
           }
         },
@@ -43,7 +43,7 @@
               "client_id": "366914936426-eop45t8oepqu48v4fsp8frgqo0h0fmqd.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.joinseeds.seedslight",
+                "bundle_id": "com.joinseeds.parqspace",
                 "app_store_id": "1507143650"
               }
             }
@@ -88,7 +88,7 @@
               "client_id": "366914936426-eop45t8oepqu48v4fsp8frgqo0h0fmqd.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.joinseeds.seedslight",
+                "bundle_id": "com.joinseeds.parqspace",
                 "app_store_id": "1507143650"
               }
             }

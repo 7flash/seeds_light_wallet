@@ -53,7 +53,8 @@ class ShowOnboardingChoice extends StatelessWidget {
                   text: seedsUrl,
                   style: TextStyle(fontSize: 14, color: AppColors.blue),
                   recognizer: TapGestureRecognizer()
-                    ..onTap = () => safeLaunch('https://www.joinseeds.com/letmein?client=seedslight'),
+                    ..onTap = () => safeLaunch(
+                        'https://www.joinseeds.com/letmein?client=parqspace'),
                 ),
                 TextSpan(
                   text: "\n\n" + "Membership based on Web of Trust".i18n,
@@ -63,7 +64,9 @@ class ShowOnboardingChoice extends StatelessWidget {
                   ),
                 ),
                 TextSpan(
-                  text: '\n\n' + "By signing up, you agree to our terms and privacy policy".i18n,
+                  text: '\n\n' +
+                      "By signing up, you agree to our terms and privacy policy"
+                          .i18n,
                   style: TextStyle(
                     color: Colors.black,
                     fontSize: 13,
@@ -84,7 +87,8 @@ class ShowOnboardingChoice extends StatelessWidget {
                     fontSize: 13,
                   ),
                 ),
-                onPressed: () => UrlLauncher.launch(Config.termsAndConditionsUrl),
+                onPressed: () =>
+                    UrlLauncher.launch(Config.termsAndConditionsUrl),
               ),
               FlatButton(
                 color: Colors.transparent,
@@ -114,7 +118,9 @@ class ShowOnboardingChoice extends StatelessWidget {
           'Import private key'.i18n,
           onImport,
         ),
-        Container(height: 10,),
+        Container(
+          height: 10,
+        ),
         buildGroup(
           'If you have an invite\nclick here'.i18n,
           "Claim invite code".i18n,
@@ -124,5 +130,4 @@ class ShowOnboardingChoice extends StatelessWidget {
       ],
     );
   }
-
 }
